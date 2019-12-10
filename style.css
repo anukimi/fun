@@ -1,0 +1,57 @@
+.top {
+  background-color: #E4F9F5;
+}
+
+h1 {
+  margin: 0;
+  font-size: 60px;
+  position: relative;
+  bottom: 20px;
+  font-family: 'Sacramento', cursive;
+}
+
+.a {
+  height: 170px;
+  margin-left: 700px;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+font-family: 'Merriweather', serif;
+}
+
+
+
+h3{
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.c {
+  width: 50%;
+}
+
+.b {
+  position: absolute;
+  left: 140px;
+  top: 250px;
+}
+.no{
+  height: 160px;
+  width: 160px;
+}
+.not{
+  height: 160px;
+  width: 160px;
+}
+.ss {
+  height: 160px;
+  width: 160px;
+}
+.ss2 {
+  height: 160px;
+  width: 160px;
+  position: relative;
+  left: 10px;
+}
