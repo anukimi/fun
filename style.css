@@ -3,11 +3,12 @@
 }
 
 h1 {
-  margin: 0;
   font-size: 60px;
+  margin: 0;
   position: relative;
   bottom: 20px;
   font-family: 'Sacramento', cursive;
+  color: #66BFBF;
 }
 
 .a {
@@ -18,14 +19,19 @@ h1 {
 body {
   margin: 0;
   text-align: center;
-font-family: 'Merriweather', serif;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
 }
 
-
-
-h3{
-  font-size: 20px;
+h2 {
+  color: #66BFBF;
   font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
 }
 
 .c {
@@ -37,21 +43,123 @@ h3{
   left: 140px;
   top: 250px;
 }
-.no{
-  height: 160px;
-  width: 160px;
+
+.no {
+  width: 25%;
+  margin-right: 30px;
 }
-.not{
-  height: 160px;
-  width: 160px;
+
+.not {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
 }
+
 .ss {
   height: 160px;
   width: 160px;
 }
+
 .ss2 {
   height: 160px;
   width: 160px;
   position: relative;
   left: 10px;
+}
+
+.qq {
+  height: 200px;
+  width: 200px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 50px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.contact-me {
+  width: 50%;
+  margin: 50px auto 100px auto;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+.rr {
+  color: #EAF6F6;
+  padding: 20px 0;
+}
+
+.skills {
+  padding-top: 20px;
+}
+
+hr {
+  width: 10%;
+  color: #808080;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: thick;
+}
+
+.middle-container {
+  padding-top: 20px;
+}
+
+.profile {
+  padding-top: 20px;
+  line-height: 2;
+}
+
+.Contacting {
+  padding-top: 20px;
+}
+
+.df {
+  line-height: 2;
+  padding-bottom: 30px;
+}
+
+.t {
+  width: 40%;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.btn {
+  box-shadow: inset -16px -50px 21px -2px #11999E;
+  background-color: #11999E;
+  border-radius: 7px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 16px;
+  padding: 10px 22px;
+  text-decoration: none;
+  text-shadow: 0px 5px 3px #11999E2;
+}
+.btn:hover {
+  background: linear-gradient(to top, #000000 100%,  #11999E 20%);
+  background-color: #ffffff;
+}
+
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
 }
