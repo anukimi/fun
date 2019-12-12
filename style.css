@@ -1,5 +1,6 @@
 .top {
   background-color: #E4F9F5;
+  padding-top: 50px;
 }
 
 h1 {
@@ -12,8 +13,8 @@ h1 {
 }
 
 .a {
-  height: 170px;
-  margin-left: 700px;
+  height: auto;
+max-width: 100%;
 }
 
 body {
@@ -36,12 +37,16 @@ h3 {
 
 .c {
   width: 50%;
+  height: auto;
+  margin-top: 80px;
 }
 
 .b {
   position: absolute;
   left: 140px;
   top: 250px;
+  height: auto;
+max-width: 10%;
 }
 
 .no {
@@ -56,20 +61,20 @@ h3 {
 }
 
 .ss {
-  height: 160px;
-  width: 160px;
+  height: auto;
+max-width: 20%;
 }
 
 .ss2 {
-  height: 160px;
-  width: 160px;
+  height: auto;
+max-width: 20%;
   position: relative;
   left: 10px;
 }
 
 .qq {
-  height: 200px;
-  width: 200px;
+  height: auto;
+max-width: 30%;
 }
 
 .skill-row {
@@ -145,8 +150,7 @@ hr {
   text-shadow: 0px 5px 3px #11999E2;
 }
 .btn:hover {
-  background: linear-gradient(to top, #000000 100%,  #11999E 20%);
-  background-color: #ffffff;
+  color: #000000;
 }
 
 .btn:active {
@@ -163,3 +167,4 @@ a {
 a:hover{
   color: #EAF6F6;
 }
+/* Media Queries: Tablet Landscape */
